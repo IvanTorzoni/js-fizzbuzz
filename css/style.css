@@ -38,6 +38,21 @@ h1 {
     align-items: center;
     font-size: 2rem;
     font-weight: bold;
-    /* Debug for visualization --- TBD */
-    background-color: azure;
 }
+
+.fizz {
+    background-color: green;
+  }
+  
+  .buzz {
+    background-color: yellow;
+  }
+  
+  .fizz-buzz {
+    background-color: grey;
+  }
+  
+  .number{
+    background-color: azure;
+  }
+  

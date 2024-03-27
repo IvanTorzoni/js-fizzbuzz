@@ -11,8 +11,8 @@ Applica stili differenti agli elementi aggiunti al DOM nel *BONUS 1*, a seconda 
 - Esecuzione dell'esercizio
     - [x] Creare il ciclo for per i numeri da 1 a 100   
     - [x] Creare un if che mi soddisfi le tre condizioni stabilite precendantemente
-    - [ ] Aggiungere un elemento ad html con numero o stringa da mostrare
-    - [ ] Applicare stile in base ai numeri e alle stringhe
+    - [X] Aggiungere un elemento ad html con numero o stringa da mostrare
+    - [x] Applicare stile in base ai numeri e alle stringhe
 
  
     
