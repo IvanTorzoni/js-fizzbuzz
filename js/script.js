@@ -17,28 +17,35 @@ for (let i = 1; i <= 100; i++) {
     const boxElem = document.createElement("div");
     
     // Gestione condizioni per scritte sulla base dei numeri divisibili 
-    if ((i % 3 === 0) && (i % 5 === 0)) {   // Gestione per numeri divisibili sia per 5 che per 3
+    // Gestione per numeri divisibili sia per 5 che per 3
+    if ((i % 3 === 0) && (i % 5 === 0)) {   
         // log alla console
         console.log("FizzBuz");
         // Inserisco la stinga solo nei div che soddisfano questa condizione
         boxElem.innerHTML = `FizzBuzz`;
         // Associo la classe creata in css per il background
         bgClass = "fizz-buzz"
-    } else if (i % 3 === 0){                // Gestione per numeri divisibili per 3
+        
+        // Gestione per numeri divisibili per 3
+    } else if (i % 3 === 0){                
         // log alla console
         console.log("Fizz");
         // Inserisco la stinga solo nei div che soddisfano questa condizione
         boxElem.innerHTML = `Fizz`;
         // Associo la classe creata in css per il background
         bgClass = "fizz"
-    } else if (i % 5 === 0){                // Gestione per numeri divisibili per 5
+
+        // Gestione per numeri divisibili per 5
+    } else if (i % 5 === 0){                
         // log alla console
         console.log("Buzz");
         // Inserisco la stinga solo nei div che soddisfano questa condizione
         boxElem.innerHTML = `Buzz`;
         // Associo la classe creata in css per il background
         bgClass = "buzz"
-    } else {
+
+        // Gestione tutti gli altri numeri
+    } else {                                
         console.log("number")
         // Inserisco il numero nei div che non fanno parte di nessuna condizione precedente
         boxElem.innerHTML = i;
